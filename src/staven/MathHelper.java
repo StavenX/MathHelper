@@ -10,8 +10,6 @@ package staven;
  */
 public class MathHelper 
 {
-	
-	
 	/**
 	 * Add numbers together
 	 * 
@@ -49,7 +47,7 @@ public class MathHelper
 	 */
 	public static double multiplicate(double... args)
 	{
-		double finalNumber = 0;
+		double finalNumber = 1;
 		for(double number : args)
 		{
 			finalNumber *= number;
@@ -64,7 +62,7 @@ public class MathHelper
 	 */
 	public static double divide(double... args)
 	{
-		double finalNumber = 0;
+		double finalNumber = 1;
 		for(double number : args)
 		{
 			finalNumber /= number;
